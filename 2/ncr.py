@@ -1,0 +1,17 @@
+n=  int(input("Enter the Value of n: "))
+r = int(input("Enter the Value of r: "))
+x = 1
+i = 1
+while i <= n:
+  x = i * x
+  i = i + 1
+numerator = x
+sub = n - r
+x = 1
+i = 1
+while i<=sub:
+  fact = i * x
+  i = i + 1
+denominator = x
+perm = numerator / denominator
+print("\nPermutation =", perm)

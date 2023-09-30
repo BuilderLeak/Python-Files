@@ -1,0 +1,3 @@
+Hello Gitam
+Visakhapatnam
+file = append(abc.txt,'r')
